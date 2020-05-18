@@ -1,0 +1,41 @@
+@import 'mainstyle';
+
+//variables
+$desktop: 10%;
+$mobile: 6%;
+
+.nav{
+    background-color: black;
+}
+
+//portfolio section
+.content{
+    margin-bottom: 50px;
+    padding-top: 80px;
+    padding-left: $desktop;
+    padding-right: $desktop;
+    h1{
+        text-align: center;
+    }
+    .ARflex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .ARelement{
+            height: 350px;
+        }
+    }
+}
+@media only screen and (max-width: 750px) {
+    .content{
+        h1{
+            font-size: 1.5em;
+        }
+        .ARflex{
+            .ARelement{
+                height: 200px;
+            }
+        }
+    }
+}
