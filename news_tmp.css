@@ -1552,10 +1552,15 @@ body .mainCont .ctaFlex .dlBtn {
   border-radius: 50px;
   -webkit-transition-duration: .2s;
           transition-duration: .2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 body .mainCont .ctaFlex .dlBtn:hover {
   padding: 9px 35px 8px 35px;
+  cursor: pointer;
 }
 
 body .mainCont .ctaFlex .dlBtn:active {
@@ -1573,6 +1578,126 @@ body .headerNewsMob {
 
 body .footSocial {
   margin-top: 50px;
+}
+
+body .dlModal {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+body .dlModal .modalBody {
+  background-color: white;
+  width: 500px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 21px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 21px 1px rgba(0, 0, 0, 0.75);
+}
+
+body .dlModal .modalBody .headModal {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+body .dlModal .modalBody p {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+body .dlModal .modalBody #mc_embed_signup {
+  background: #fff;
+  clear: left;
+  width: 100%;
+}
+
+body .dlModal .modalBody #mc_embed_signup #mc_embed_signup_scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dlModal .modalBody #mc_embed_signup #mc_embed_signup_scroll div {
+  margin-top: 20px;
+}
+
+body .dlModal .modalBody #mc_embed_signup #mc_embed_signup_scroll div #mc-embedded-subscribe {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-top: 5px;
+}
+
+body .dlModal .modalBody #mc_embed_signup #mc_embed_signup_scroll div #mc-embedded-subscribe:hover {
+  padding-left: 35px;
+  padding-right: 35px;
+  cursor: pointer;
+}
+
+body .dlModal .modalBody #mc_embed_signup #mc_embed_signup_scroll div #mc-embedded-subscribe:active {
+  background-color: #424242;
+}
+
+body .dlModal .modalBody .exitBtn {
+  font-size: 1.4em;
+  position: absolute;
+  float: right;
+  right: 11px;
+  top: 5px;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+body .dlModal .modalBody .exitBtn:hover {
+  cursor: pointer;
+  color: #e50872;
+}
+
+body .dlModal .modalBody .exitBtn:active {
+  color: #c50562;
+}
+
+body .about {
+  margin-top: 50px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+body .about h1 {
+  text-align: center;
+  color: black;
+  margin-top: 0px;
+}
+
+body .footSocial {
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 950px) {
