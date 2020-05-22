@@ -99,13 +99,12 @@ html, body {
 .mainCarousel .mainCarouselImg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   height: 100vh;
 }
 
 .mainCarousel .mainImg1 {
   background-image: url("imgs/arvisual_main01.jpg");
-  background-position: center;
 }
 
 .mainCarousel .mainImg2 {
@@ -257,12 +256,6 @@ html, body {
   -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
   height: 60px;
-  -webkit-transition-duration: .2s;
-          transition-duration: .2s;
-}
-
-.about .ourClients .ourClientLogo:hover {
-  opacity: .6;
 }
 
 .about .ourClients .minotti {
@@ -1317,10 +1310,10 @@ footer .footerFlex .footInfo .addressFlex:nth-of-type(5) {
     background-image: url("imgs/arvisual_main01_m.jpg");
   }
   .mainCarousel .mainImg2 {
-    background-image: url("imgs/arvisual_main04_m.jpg");
+    background-image: url("imgs/arvisual_main02_m.jpg");
   }
   .mainCarousel .mainImg3 {
-    background-image: url("imgs/arvisual_main05_m.jpg");
+    background-image: url("imgs/arvisual_main03_m.jpg");
   }
   .about {
     padding-left: 0;
